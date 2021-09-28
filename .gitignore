@@ -1,0 +1,51 @@
+### 说明开始 ###########################
+# 以斜杠“/”开头表示目录；
+# 以星号“**”通配多个字符；
+# 以问号“?”通配单个字符
+# 以方括号“[]”包含单个字符的匹配列表；
+# 以叹号“!”表示不忽略(跟踪)匹配到的文件或目录；
+# 前面的匹配会覆盖后面的
+### 说明结束 ###########################
+
+target/
+!**/src/main/**
+!**/src/test/**
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+
+### VS Code ###
+.vscode/
+
+
+### MAC ###
+.DS_Store
+
+### MVN ###
+.mvn/**
+
+### virtual machine crash logs ###
+hs_err_pid*
+
+### Log ###
+*.log
